@@ -45,7 +45,7 @@ pub fn read_from_string(string: &str) -> Result<Vec<Model>> {
                     serde_xml_rs::from_str(&format!("{}", sorted_xml)).map_err(SdfError::new)?;
                 models.push(model);
             }
-        };
+        }
     }
     Ok(models)
 }
