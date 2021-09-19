@@ -3,6 +3,12 @@ name = "sdformat-rs"
 version = "0.1.0"
 authors = ["nekanat <nekanat.stock@gmail.com>"]
 edition = "2018"
+description = "SDFormat parser for Rust."
+license = "MIT"
+readme = "README.md"
+documentation = "http://azm-project.github.io/sdformat-rs/sdformat_rs"
+homepage = "https://github.com/azm-project/sdformat-rs"
+repository = "https://github.com/azm-project/sdformat-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
